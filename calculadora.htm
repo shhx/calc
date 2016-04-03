@@ -20,6 +20,11 @@
 		num.value = num.value * num.value * num.value;
 	}
 	
+	function sqrt () {
+		var num = document.getElementById('n1');
+		num.value = Math.sqrt(num.value);
+	}
+
 	</script>
 </head>
 <body>
@@ -29,5 +34,6 @@
 		<button onClick="cuadrado()">x<sup>2</sup></button>
 		<button onClick="cubo()">x<sup>3</sup></button>
 		<button onClick="inverso()">1/x</button>
+		<button onClick="sqrt()">sqrt(x)</button>
 </body>
 </html>
